@@ -2,9 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>4 op een rij</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<header><h1>4 op een rij</h1></header>
 <body>
-    <h1>Hello World</h1>
+<h1 id="beurt">Beurt: ???</h1>
+<div id="resetButton">Reset</div>
+<form id="form" class="">
+    <h3>Typ hier de namen in!</h3>
+    <label for="pName1" class="pName1">Player 1:</label>
+    <input type="text" id="pName1" placeholder="speler1" maxlength="9">
+    <br>
+    <label for="pName2" class="pName2">Player 2:</label>
+    <input type="text" id="pName2" placeholder="speler2" maxlength="9">
+    <br>
+    <div id="startButton">Start</div>
+
+</form>
+
+<div class="statistics">
+    <h2 id="speler1">Speler1</h2>
+    <br>
+    <h2>Winsten: 0</h2>
+    <br>
+    <h2 id="speler2">Speler2</h2>
+    <br>
+    <h2>Winsten: 0</h2>
+</div>
+<div id="bordContainer">
+    <div class="container"id="cont">
+    </div>
+</div>
+
+<div id="messageWindow">
+    [Voorbeeld]
+</div>
+<script type="module" src="app.js"></script>
 </body>
 </html>
+<!----
+<div class="messageWindow">
+        <h3>Typ hier de namen in!</h3>
+        <label for="pName1">Player 1:</label>
+        <input type="text" name="pName1" id="pName1">
+        <br>
+        <label for="pName2">Player 2:</label>
+        <input type="text" name="pName2" id="pName2">
+    </div>
+-->
