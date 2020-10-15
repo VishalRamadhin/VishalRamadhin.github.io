@@ -60,12 +60,13 @@ body {
 
 
 .reset{
-    top:32rem;
-    left: 50%;
+    position: absolute;
+    left: 100px;
+    top: 100px;
     transform: translate(-50%);
-    width: 200px;
-    height: 60px;
-    text-align: right;
+    width: 100px;
+    height: 30px;
+    text-align: center;
     padding: 0.3rem;
     border: 1px solid black;
     background: #ffffff;
